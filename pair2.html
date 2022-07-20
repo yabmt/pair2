@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <title>ペアワークお問い合わせフォーム作成</title>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="pairt2.css">
+
+  </head>
+  <header>
+    <hr class=header-line>
+
+    <ul class="clearfix">
+      <li class="left"><img class=logo src="sweets_manju_cha.png"></li>
+      <li class="right"><a href="#">求人情報</a></li>
+      <li class="right"><a href="#">よくあるご質問</a></li>
+      <li class="right"><a href="#">初めての方へ</a></li>
+    </ul>
+
+  </header>
+  <body>
+    <h1 class= ><span class=icon>■</span>予約フォーム</h1>
+    <p class=>当サイトは、 お客様の個人情報について、お客様の承諾がない限り第三者に開示、提供を一切行いません。
+    <br>ご提供いただいた個人情報を取り扱うにあたり管理責任者を置いて、適切な管理を行っております。</p>
+    <div class=container>
+      <h3>氏名</h3>
+      <input type="text">
+      <h3>メールアドレス</h3>
+      <input type="text">
+      <h3>電話番号</h3>
+      <input type="text">
+      <h3>予約日</h3>
+      <p><input type="text" id="datepicker"></p>
+      <h3>注文内容</h3>
+      <textarea class=""></textarea>
+      <br>
+      <input type="checkbox" id="demo1"><span><a href=#>個人情報の取り扱い</a>について、同意の上送信します。</span>
+      <br>
+      <input type="submit" class="button" value="送信する"">
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script>$('#datetimepicker').datetimepicker();</script>
+  </body>
+</html>
